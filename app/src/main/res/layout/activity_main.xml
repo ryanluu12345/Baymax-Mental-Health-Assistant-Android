@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_marginTop="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:text="Baymax"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:text="Your mental health assitance"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:scaleType="fitCenter"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_gravity="center"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/baymax"
+        />
+
+    <EditText
+        android:id="@+id/email_address_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:fontFamily="serif"
+        android:hint="Enter your email address"/>
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:fontFamily="serif"
+        android:hint="Enter your password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginLeft="30sp"
+        android:text="Sign In"
+        android:onClick="onMainSignInClick"
+        android:background="@color/colorAccent"
+        android:elevation="30sp"/>
+
+</LinearLayout>
